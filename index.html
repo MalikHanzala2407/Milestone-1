@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Rusume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Static Builder By Hanzala Malik</h1>
+    <form id="Rusumeform">
+        <fieldset>
+            <legend>Personal Information </legend>
+
+            <label for="username"> RusumeURL :</label>
+            <input type="text" id="username" name="username" required /><br>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Phone">Mobile Phone Number:</label>
+            <input type="Phone" id="Phone" name="Phone" required>
+
+            <!--profile picture-->
+            <label for="--profilepicture">--profilepicture</label>
+            <input type="file" id="--profilepicture" name="--profilepicture" accept="image/*" required>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Education">Education:</label>
+            <textarea id="Education" name="Education" rows="4" required></textarea> <br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="Experience">Experience:</label>
+            <textarea id="Experience" name="Experience" rows="4" required></textarea> <br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="Skills">Skills:</label>
+            <textarea id="Skills" name="Skills" rows="4" required></textarea> <br>
+        </fieldset>
+
+
+        <button type="submit">Generate Reusume Below</button>
+
+
+    </form>
+
+    <div id="ReusumeOutput">
+        <!--Resume Will Be Generated Below-->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
